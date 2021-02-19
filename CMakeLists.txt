@@ -45,9 +45,9 @@ option(SNAPPY_BUILD_TESTS "Build Snappy's own tests." ON)
 
 option(SNAPPY_FUZZING_BUILD "Build Snappy for fuzzing." OFF)
 
-option(SNAPPY_REQUIRE_AVX "Target processors with AVX support." OFF)
+option(SNAPPY_REQUIRE_AVX "Target processors with AVX support." ON)
 
-option(SNAPPY_REQUIRE_AVX2 "Target processors with AVX2 support." OFF)
+option(SNAPPY_REQUIRE_AVX2 "Target processors with AVX2 support." ON)
 
 option(SNAPPY_INSTALL "Install Snappy's header and library" ON)
 

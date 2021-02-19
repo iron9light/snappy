@@ -1,6 +1,7 @@
 # Editors.
 *.sw*
-.vscode
+.vscode/
+.vs/
 .DS_Store
 
 # Build directory.
